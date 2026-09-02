@@ -1,0 +1,38 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+*.so
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- Environment / secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Pytest / coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# --- Playwright / test artifacts ---
+test-results/
+playwright-report/
+.tamash-report/
+report.html
+tamash-report.html
+
+# --- IDE / OS ---
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
